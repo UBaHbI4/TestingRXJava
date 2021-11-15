@@ -1,4 +1,4 @@
-package softing.ubah4ukdev.testingrxjava
+package softing.ubah4ukdev.testingrxjava.presenter
 
 import io.reactivex.Scheduler
 import io.reactivex.schedulers.Schedulers

@@ -7,6 +7,7 @@ import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.MockitoAnnotations
 import softing.ubah4ukdev.testingrxjava.model.SearchResponse
+import softing.ubah4ukdev.testingrxjava.presenter.ScheduleProviderStub
 import softing.ubah4ukdev.testingrxjava.presenter.search.SearchPresenter
 import softing.ubah4ukdev.testingrxjava.repository.GitHubRepository
 import softing.ubah4ukdev.testingrxjava.view.search.ViewSearchContract
