@@ -18,7 +18,7 @@ import softing.ubah4ukdev.testingrxjava.repository.RepositoryCallback
  *
  *   v1.0
  */
-internal interface RepositoryContract {
+interface RepositoryContract {
 
     fun searchGithub(
         query: String,
@@ -28,4 +28,9 @@ internal interface RepositoryContract {
     fun searchGithub(
         query: String
     ): Observable<SearchResponse>
+
+    suspend fun searchGithubAsync(
+        query: String
+    ): SearchResponse
+
 }

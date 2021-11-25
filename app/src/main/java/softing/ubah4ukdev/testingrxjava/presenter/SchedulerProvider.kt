@@ -16,7 +16,7 @@ import io.reactivex.Scheduler
  *
  *   v1.0
  */
-internal interface SchedulerProvider {
+interface SchedulerProvider {
     fun ui(): Scheduler
     fun io(): Scheduler
 }
